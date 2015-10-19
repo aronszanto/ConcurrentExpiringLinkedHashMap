@@ -16,7 +16,7 @@ public class MapTester{
             Thread.sleep(1000);
         }
         
-        System.out.println("Testing time to insert 100000 elements");
+        System.out.println("Testing time to insert 1000000 elements");
         long start = System.currentTimeMillis();
         for (int i = 0; i < 1000000; i++){
             String val = Integer.toString(i);
